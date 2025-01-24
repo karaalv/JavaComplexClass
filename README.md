@@ -54,7 +54,7 @@ ComplexNumber c2 = new ComplexNumber(1, -2, 'j');  // 1 - 2j
 ComplexNumber sumResult = c1.add(c2);  // Adds the two complex numbers
 ComplexNumber productResult = c1.multiply(c2);  // Multiplies the two complex numbers
 
-// Get the modulus, argument, phase, and conjugate
+// Get the modulus, argument, and conjugate
 double modulusC1 = c1.getModulus();
 double argumentC2 = c2.getArgument();
 ComplexNumber conjugateC1 = c1.getConjugate();
